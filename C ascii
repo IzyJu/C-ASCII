@@ -1,0 +1,15 @@
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    
+    int i = 97;
+    char c = (char)i;
+    
+    while ( i < 123){
+      Console.WriteLine(c);
+      i++;
+      c = (char)i;
+    }
+  }
+}
